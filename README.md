@@ -1,4 +1,4 @@
-# GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE
+# GUIDE UNIT TESTING IN JAVASCRIPT WITH JASMINE
 
 This is a practical guide on "**Unit-Testing in Javascript With Jasmine**". All the chapters and materials are contained within this repository.
 
