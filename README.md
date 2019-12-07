@@ -1,38 +1,35 @@
-# GUIDE UNIT TESTING IN JAVASCRIPT WITH JASMINE
+# Getting Started with Unit Testing
 
-This is a practical guide on "**Unit-Testing in Javascript With Jasmine**". All the chapters and materials are contained within this repository.
+This is a theoritical chapter. In this you will learn the insights of unit testing and how to perform unit testing before deploying application on production environment
 
-**NOTE:** The video playback will be available soon
+## What is Unit Testing
 
-## Disclaimer
+- software testing method by which **individual units** of source code are **tested** to **_ensure are fit for use_**
 
-I might have missed some topics. If you find some missing content, I would like you to make contributions or create issues about the same
+## Need of Unit Testing
 
-## Prerequisite Knowledge
+- **evaluate** a program’s **correctness** after a change
+- function as good **examples for other developers** (_when the code is undocumented or contains sparse documentation_)
 
-1. Javascript Basics
+## Test-Driven Development
 
-## What This Course is "Not" About
+- allows developers to **think clearly about the specifications** before their minds are clouded with the implementation details
+- ensures that tests are always written
 
-- HTML
-- CSS
-- Javscript
+### Specs of Test-Driven Development
 
-## Chapters
+1. Write test cases for a **specific part** of your code. At this time these tests **should fail**
+2. Your **code only serves** to make all of your tests _pass_, and nothing more
+3. Once all of your tests pass, **refractor** the code
 
-1. [Getting Started with Unit Testing](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-1)
-2. [Understanding Jasmine Framework](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-2)
-3. [Jasmine Matchers](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-3)
-4. [More on Jasmine](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-4)
-5. [Spies in Jasmine](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-5)
+## Behavior-Driven Development
 
-## License
+- specifications that are **small** and **easy to read**
+- should be written after defining the "**behavior**" of the application
 
-This respository is licensed under [GPL-v3](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/master/LICENSE) license
+### Specs of Behavior-Driven Development
 
-## Contact Information
+1. Your tests must be small and test one thing
+2. Your tests should be sentences (for example: _`this` should do `that`_)
 
-Email: tbhaxor@gmail.com <br>
-Linkedin: https://www.linkedin.com/in/gurkirat--singh/ <br>
-Twitter: @tbhaxor <br>
-Instagram: @bootagorira <br>
+**NOTE:** If your test fails, you have to fix the bug
