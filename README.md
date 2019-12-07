@@ -1,6 +1,6 @@
 # Getting Started with Unit Testing
 
-This is a theoritical chapter. In this you will learn the insights of unit testing and how to perform unit testing before deploying application on production environment
+This is a theoritical chapter. In this you will get about the insights of unit testing and how to perform unit testing before deploying application on production environment
 
 ## What is Unit Testing
 
