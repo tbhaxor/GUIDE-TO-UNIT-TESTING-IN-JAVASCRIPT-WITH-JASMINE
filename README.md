@@ -24,7 +24,7 @@ I might have missed some topics. If you find some missing content, I would like 
 2. [Understanding Jasmine Framework](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-2)
 3. [Jasmine Matchers](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-3)
 4. [More on Jasmine](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-4)
-5. [Spies](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-5)
+5. [Spies in Jasmine](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-5)
 
 ## License
 
