@@ -1,38 +1,66 @@
-# GUIDE UNIT TESTING IN JAVASCRIPT WITH JASMINE
+# Understanding Jasmine Framework
 
-This is a practical guide on "**Unit-Testing in Javascript With Jasmine**". All the chapters and materials are contained within this repository.
+## What is Jasmine
 
-**NOTE:** The video playback will be available soon
+- behavior-driven testing framework
+- bunch of tools that you can use to test JavaScript code
+  - matchers / assertions
+  - test suites
+  - specs
 
-## Disclaimer
+**Why not Test-Driven** <br>
+As the code evolves, tests written in "[**Test-Driven Development**](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-1#test-driven-development)" can give false results.
 
-I might have missed some topics. If you find some missing content, I would like you to make contributions or create issues about the same
+The **Behavior-Driven Development** is different, as in this the testing of application is done as per the actual behavior of the system from the end users perspective.
 
-## Prerequisite Knowledge
+## Setting up Jasmine
 
-1. Javascript Basics
+1. Download the latest bundle from the [releases](https://github.com/jasmine/jasmine/releases)
+2. Unzip the code
+3. [OPTIONAL] Run the `SpecRunner.html`, to see how the testing results look like
 
-## What This Course is "Not" About
+![](https://i.ibb.co/2qSCsTL/image.png)
 
-- HTML
-- CSS
-- Javscript
+**NOTE:** At time of publishing this course, the latest version of jasmine was `3.5.0`
 
-## Chapters
+## Your First Test-Driven Development
 
-1. [Getting Started with Unit Testing](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-1)
-2. [Understanding Jasmine Framework](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-2)
-3. [Jasmine Matchers](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-3)
-4. [More on Jasmine](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-4)
-5. [Spies in Jasmine](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/tree/chapter-5)
+- every test begins with a `describe` function
+  - also called **test-suite**
+  - the parameters include
+    - suite name
+    - callback function
+- inside every _describe_ function, there can be one or many `it` functions
+  - also called **specifications**, or **`specs`** in short
+  - the parameters include
+    - specs name
+    - callback function
 
-## License
+The first test for hello world, is [here](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/chapter-2/codes/spec/HelloWorld.spec.js) and the function definition is [here](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/chapter-2/codes/src/HelloWorld.js). The bootstrap file is [HelloWorld.html](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/chapter-2/codes/HelloWorld.html)
 
-This respository is licensed under [GPL-v3](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/master/LICENSE) license
+![](https://i.ibb.co/cJ0Lknd/image.png)
 
-## Contact Information
+**NOTE:** The `tobe`, `toEqual` and etc are called matcher, and will be discussed in the next lecture
 
-Email: tbhaxor@gmail.com <br>
-Linkedin: https://www.linkedin.com/in/gurkirat--singh/ <br>
-Twitter: @tbhaxor <br>
-Instagram: @bootagorira <br>
+## Writing Tests for The Test-Driven Development
+
+<p style="text-align: center"> 
+    <img src='https://i.ibb.co/8sTfx7x/image.png'/>
+</p>
+
+Although for bigger projects test-driven development is not used. But for a specific component of that application you can perform test-driven development.
+
+For example, in case of developing a calculator component of a big-entriprise solution.
+
+The key "**specs**" of the calculator would be
+
+1. It should add 2 numbers, (both positive, one positive, both negative)
+2. It should subtract 2 numbers, (both positive, one positive, both negative)
+3. It should multiply 2 numbers, (both positive, one positive, both negative, 0 if multiplied by 0)
+4. It should divide 2 numbers, (both positive, one positive, both negative, Infinity if denominator is 0)
+
+The test for calculator is [here](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/chapter-2/codes/spec/Calculator.spec.js) and the functions definitions are [here](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/chapter-2/codes/src/Calculator.js). The bootstrap file is [Calculator.html](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/chapter-2/codes/Calculator.html)
+
+![](https://i.ibb.co/SJMsvH9/image.png)
+
+## Writing Good Tests
