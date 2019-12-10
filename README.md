@@ -44,9 +44,7 @@ The first test for hello world, is [here](https://github.com/tbhaxor/GUIDE-TO-UN
 
 ## Writing Tests for The Test-Driven Development
 
-<div style="text-align: center"> 
-    <img src='https://i.ibb.co/8sTfx7x/image.png'/>
-</div>
+<div style="text-align:center"><img src="https://i.ibb.co/8sTfx7x/image.png" /></div>
 
 Although for bigger projects test-driven development is not used. But for a specific component of that application you can perform test-driven development.
 
