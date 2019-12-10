@@ -1,5 +1,7 @@
 # Understanding Jasmine Framework
 
+In this chapter you will learn the basics of jasmine framework. And also you will write your first unit test.
+
 ## What is Jasmine
 
 - behavior-driven testing framework
