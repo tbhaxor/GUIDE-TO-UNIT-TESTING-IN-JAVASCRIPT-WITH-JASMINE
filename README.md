@@ -44,9 +44,9 @@ The first test for hello world, is [here](https://github.com/tbhaxor/GUIDE-TO-UN
 
 ## Writing Tests for The Test-Driven Development
 
-<p style="text-align: center"> 
+<div style="text-align: center"> 
     <img src='https://i.ibb.co/8sTfx7x/image.png'/>
-</p>
+</div>
 
 Although for bigger projects test-driven development is not used. But for a specific component of that application you can perform test-driven development.
 
@@ -64,3 +64,9 @@ The test for calculator is [here](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTI
 ![](https://i.ibb.co/SJMsvH9/image.png)
 
 ## Writing Good Tests
+
+In theory, you could write an infinite number of tests for your code. But you don’t have unlimited time on your hands. Here are some tips to write good tests
+
+1. **When in Doubt, Test** &rarr; If you’re not sure whether or not to test something, it probably doesn’t hurt to test it
+2. Test individual components of your code, rather than everything at once.
+3. When writing behavior-focused tests, you can imagine your software being a black box (You care only about the software’s behavior, not what happens internally)
