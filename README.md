@@ -61,7 +61,6 @@ The key "**specs**" of the calculator would be
 
 The test for calculator is [here](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/chapter-2/codes/spec/Calculator.spec.js) and the functions definitions are [here](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/chapter-2/codes/src/Calculator.js). The bootstrap file is [Calculator.html](https://github.com/tbhaxor/GUIDE-TO-UNIT-TESTING-IN-JAVASCRIPT-WITH-JASMINE/blob/chapter-2/codes/Calculator.html)
 
-![](https://i.ibb.co/SJMsvH9/image.png)
 
 ## Writing Good Tests
 
